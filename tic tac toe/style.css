@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(32, 32, 32);
+    background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg");
+    color: rgb(230, 230, 230);
+    text-align: center;
+    font-family: 'Indie Flower', 'Comic Sans', cursive;
+    font-size: 0.7em;
+}
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.box{
+    display: inline-block;
+}
+.p_name{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+.b{
+    border-collapse: collapse;
+    padding: 0;
+    height: 80px;
+    width: 100px;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+}
+.reset{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}

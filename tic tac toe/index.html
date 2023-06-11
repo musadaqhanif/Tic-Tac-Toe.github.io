@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tic.js">  </script>
+<head>
+    <body>
+        
+        <div class="container">
+            <div class="player">
+                <label for="player">Player-1 Name</label>
+                <input type="text" class="p_name" id="name1" onclick="values_decision()">
+            </div>
+            <div class="player">
+                <label for="player">Player-2 Name</label>
+                <input type="text" class="p_name" id="name2" onclick="values_decision()">
+            </div>
+            <br>
+            <br>
+            <div class="box">
+            <input type="text"  class="b" id="b1" onclick ="myfun_1(); values_decision();" readonly>
+            <input type="text"  class="b" id="b2" onclick = "myfun_2(); values_decision(); " readonly>
+            <input type="text" class="b" id="b3" onclick ="myfun_3(); values_decision();"readonly>
+            </div>
+            <br>
+            <div class="box">
+            <input type="text" class="b" id="b4" onclick="myfun_4(); values_decision()"readonly>
+            <input type="text" class="b" id="b5" onclick="myfun_5(); values_decision()"readonly>
+            <input type="text" class="b" id="b6" onclick="myfun_6(); values_decision()"readonly>
+           </div>
+            <br>
+            <div class="box">
+            <input type="text" class="b" id="b7" onclick="myfun_7(); values_decision()"readonly>
+            <input type="text" class="b" id="b8" onclick="myfun_8(); values_decision()"readonly>
+            <input type="text" class="b" id="b9" onclick="myfun_9(); values_decision()"readonly>
+            </div>
+            <br>
+            <br>
+            <p id="winner"></p>  <br><br>
+            <button class="reset" onclick="reset()">Reset</button>       
+        </div> 
+     
+    </body>
+    </html>
